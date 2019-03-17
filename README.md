@@ -25,7 +25,11 @@ Initialize Eslint
 or
 `$ npx eslint --init`
 
-
+## Babel 
+Install Babel  
+`$ npm i babel-core babel-preset-env -D`  
+Install Babel loader for webpack
+`$ npm i babel-loader@7 -D`  
 
 ## HTTP Server
 Optionally we can install http-server  

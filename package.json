@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/edmelkoyev/edw-webpack-template#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^5.15.2",
     "http-server": "^0.11.1",
     "webpack": "^4.29.6",
