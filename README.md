@@ -42,6 +42,11 @@ style-loader attaches loaded / provided styles to head of the page. It gets atta
 
 `$ npm i node-sass sass-loader -D`
 
+## Install image loader
+
+`$ npm i url-loader -D`
+`$ npm i file-loader -D`
+
 ## HTTP Server
 Optionally we can install http-server  
 `$ npm i http-server -D`

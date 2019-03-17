@@ -39,6 +39,17 @@ module.exports = {
             }
           },
           'sass-loader']
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 5000,
+            name: '[path][name].[ext]',
+            outputPath:'img/'
+          }
+        }
       }
     ]
   }
