@@ -1,0 +1,32 @@
+{
+  "name": "edw-webpack-template",
+  "version": "1.0.0",
+  "description": "This is template for Node projects with webpack",
+  "main": "abc.js",
+  "scripts": {
+    "dev": "npx webpack --mode=development --watch",
+    "build": "npx webpack --mode=production",
+    "lint": "npx eslint ./src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmelkoyev/edw-webpack-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmelkoyev/edw-webpack-template/issues"
+  },
+  "homepage": "https://github.com/edmelkoyev/edw-webpack-template#readme",
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "http-server": "^0.11.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
